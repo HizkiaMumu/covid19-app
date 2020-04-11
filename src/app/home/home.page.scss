@@ -1,31 +1,128 @@
-#container {
+ion-content {
+
+}
+
+.components-card {
+  width: 100%;
+  height: auto;
+  padding: 20px 16px; // atas-bawah, kanan-kiri
+  background: #fff !important;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  z-index: 1000 !important;
+  margin-top: -40px;
+  position: absolute !important;
+}
+
+.image {
+  z-index: 100 !important;
+}
+
+.custom-select {
+  --background-color: #EFEFEF !important;
+  --background: #EFEFEF !important;
+}
+
+.status-card {
+  width: 100px;
+  height: 100px;
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  border-radius: 5px;
+  padding-top: 20px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.positif-card {
+  background: #FFAD3D;
 }
 
-#container p {
+.sembuh-card {
+  background: #429DF7;
+  margin: 0px 14px;
+}
+
+.meninggal-card {
+  background: #FF505D;
+}
+
+.hotline-card {
+  width: 100%;
+  height: 90px;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 18px;
+  background: #AB8AD8;
+}
+
+.hotline-title {
+  font-size: 14px;
+  margin: -5px 0px 0px 0px;
+  color: #fff;
+  font-weight: 600;
+  text-align: left !important;
+}
+
+.hotline-description {
+  font-size: 10px;
+  margin: 2px 0px 0px 0px;
+  color: #fff;
+  font-weight: 500;
+  text-align: left !important;
+}
+
+.hotline-area {
+  margin-top: 14px;
+}
+
+.status-text {
+  font-size: 10px;
+  margin: 0px;
+  color: #FFFFFF;
+}
+
+.nopadding-grid, .nopadding-grid ion-row, .nopadding-grid ion-col {
+  padding: 0px !important;
+}
+
+.status-area {
+  margin-top: 24px;
+}
+
+.history-title-bold {
   font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+  color: #151515;
+  margin: 0px;
+  font-weight: 600;
 }
 
-#container a {
-  text-decoration: none;
+.history-title {
+  font-size: 14px;
+  color: rgba(20, 20, 20, 0.5);
+  margin: 0px;
+  font-size: 400 !important;
+  margin-top: 2px !important;
+  text-align: center;
 }
 
-ion-content ion-toolbar {
-  --background: translucent;
+.data-title-bold {
+  font-size: 14px;
+  color: #151515;
+  margin: 0px;
+  font-weight: 600;
+}
+
+.data-count {
+  font-size: 14px;
+  color: rgb(20, 20, 20);
+  margin: 0px;
+  font-size: 400 !important;
+  margin-top: 2px !important;
+  text-align: center;
+}
+
+.data-area {
+  margin-top: 14px;
+}
+
+.history-area {
+  margin-top: 24px;
 }
